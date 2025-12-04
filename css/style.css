@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* colori */
+:root {
+    --primary-color: #6500ff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 img {
     display: block;
@@ -41,6 +50,25 @@ a {
     color: #7c7c7c;
     font-size: 0.8rem;
 }
+
+/* card button */
+
+.btn {
+    display: block;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
 
 /* Sezione prezzi */
 
